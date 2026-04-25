@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Sekuya:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+         <ul id="sidebar">
+            <li onclick="hiddenSidebar()"><a href=""><img src="close.svg"></a></li>
+            <li id="links"><a href="../index.html">Home</a></li>
+            <li id="links"><a href="About.html">About</a></li>
+            <li id="links"><a href="Menu.html">Menu</a></li>
+            <li id="links"><a href="Book-Table.html">Book Table</a></li>
+            <li id="links"><a href="Testimonials.html">Testimonials</a></li>
+            <li id="links"><a href="Designer.html">Designer</a></li>
+        </ul>
+        <ul>
+            <li style="font-weight: bold;" class="logo"> <img src="Footer/Kitchen.svg" alt=""> Family's-<span id="span"> Kitchen</span></li>
+            <li class="hidden" id="links"><a href="index.html">Home</a></li>
+            <li class="hidden" id="links"><a href="About.html">About</a></li>
+            <li class="hidden" id="links"><a href="Menu.html">Menu</a></li>
+            <li class="hidden" id="links"><a href="Book-Table.html">Book Table</a></li>
+            <li class="hidden" id="links"><a href="Testimonials.html">Testimonials</a></li>
+             <li class="hidden" id="links"><a href="Designer.html">Designer</a></li>
+            <button class="menu" onclick="showSidebar()" ><img src="menu.svg" alt=""></button>
+
+        </ul>
+    </nav>
+
+    <main class="main-designer">
+      
+        <div class="designer">
+            <img src="Best-Selection/Designer.png" alt="">
+            <h1>Frontend Engineer</h1>
+            <p>I am a self taught Frontend Engineer</p>
+            <p>Tech Stack I Have Covers Includes But are  not limited to the following</p>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Javascript</li>
+                <li>TailWind CSS & BootStrap</li>
+                <li>Typescript</li>
+                <li>React & Next.js</li>
+                <li>Redux</li>
+                <li>Git & Github</li>
+                <li>Vs Code</li>
+            </ul>
+        </div>
+
+        <div class="designer">
+              <h1>This Website Is Proudly Design By <span>KOFI JONATHAN KAKAH</span></h1>
+              <p>This Website was build using the following tech stack:</p>
+              <ul>
+                <li>Hyper Text Markup Language [HTML]</li>
+                <li>Casscading Style Sheet [CSS]</li>
+                <li>Javascript</li>
+              </ul>
+              <h1>Integrated Development Environment [IDE]</h1>
+              <ul>
+                <li>Visual Studio Code [VS Code]</li>
+              </ul>
+        </div>
+    </main>
+
+      <footer style="margin-top: 4rem;background-color: #333;">
+        <div class="cont-footer">
+
+            <div class="cont-footer1">
+                <h1 style="font-weight: bold;font-family: Sekuya;" >Family's-<span id="span">Kitchen</span> </h1>
+                <p style="font-family: Poppins;font-weight: bold;font-size: 2rem;">Visit Our Restaurant & Feel The Taste That Brings Complete Satisfaction</p>
+            </div><hr class="divider">
+
+            <div class="cont-footer1">
+                <h1>Our Menu</h1>
+                <h3>Fufu & Soup</h3>
+                <h3>Rice</h3>
+                <h3>Spaghetti</h3>
+                <h3>Noddles</h3>
+                <h3>Pasta</h3>
+                <h3>Pizza</h3>
+                <h3>Potatoes Salad</h3>
+                <h3>Sandwich</h3>
+            </div><hr class="divider">
+
+            <div class="cont-footer1">
+                <h1>Links</h1>
+                <h3 class="foo"><a href="index.html">Home</a></h3>
+                <h3 class="foo"><a href="About.html">About Us</a></h3>
+                <h3 class="foo"><a href="#">Blogs</a></h3>
+                <h3 class="foo"><a href="Testimonials.html">Testimonials</a></h3>
+                <h3 class="foo"><a href="#">FAQs</a></h3>
+                <h3 class="foo"><a href="#">Privacy Policy</a></h3>
+            </div><hr class="divider">
+
+            <div class="cont-footer1">
+                <h1>Contact Us</h1>
+                <img src="Footer/Call.svg" height="20px" width="30px"> <h3>+231775144573</h3>
+                <img src="Footer/Email.svg" height="20px" width="30px"><h3>familykitchen10@gmail.com</h3>
+                <img src="Footer/Location.svg" height="20px" width="30px"><h3>Liberia,Monrovia,Montserrado-County,New-Georgia-Estate</h3>
+            </div><hr class="divider">
+        </div>
+    </footer>
+
+     <script src="app.js" defer></script>
+</body>
+</html>
