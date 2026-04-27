@@ -41,12 +41,12 @@
         <div class="reserve-table">
             
             <div class="dinning">
-                <img class="image" src="Dinning/Dinning-Table-1.jpg" loading="lazy" >
+                <img class="image" src="Dinning/Dinning-Table-1.jpg" loading="eager" >
             </div>
 
             <div class="reserve-table-cont">
 
-                <form class="reserve-table-cont" action="submit" method="post">
+                <form class="reserve-table-cont" action="https://formspree.io/f/mpqkeeng" method="post">
 
                 <input type="text" placeholder="Enter Full Name" name="Full Name" required>
                 <input type="email" placeholder="Email" name="Email" required>
@@ -80,12 +80,15 @@
                 <img src="Footer/Location.svg" height="20px" width="30px"><h3>Liberia,Monrovia,Montserrado-County,New-Georgia-Estate</h3>
             </div>
 
+            <form action="https://formspree.io/f/mpqkeeng" method="post">
             <div class="main1">
                 <h1>Send Us Message</h1>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea placeholder="Your Message"></textarea>
+                <input type="text" placeholder="Your Name" name="Name" required>
+                <input type="email" placeholder="Your Email" name="Email" required>
+                <textarea placeholder="Your Message" name="message" required></textarea>
+                <button style="padding: 1rem;background-color:  #FFD700;border: none;border-radius: 1rem;font-size: 2rem;font-family: Poppins;color: aliceblue;" type="submit">Submit</button>
             </div>
+            </form>
 
             </div>
         </main>
