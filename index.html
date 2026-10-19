@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Sekuya:regular" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css?family=Sekuya:regular&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
          <ul id="sidebar">
-            <li onclick="hiddenSidebar()"><a href=""><img src="icons/close.svg" loading="eager"></a></li>
+            <li onclick="hiddenSidebar()"><a href=""><img decoding="async"  src="icons/close.svg" loading="eager"></a></li>
             <li id="links"><a href="index.html">Home</a></li>
             <li id="links"><a href="Pages/About.html">About</a></li>
             <li id="links"><a href="Pages/Menu.html">Menu</a></li>
@@ -20,14 +20,14 @@
             <li id="links"><a href="Pages/Designer.html">Designer</a></li>
         </ul>
         <ul>
-            <li style="font-weight: bold;" class="logo"> <img src="Footer/Kitchen.svg" alt=""> Family's-<span id="span"> Kitchen</span></li>
+            <li style="font-weight: bold;" class="logo"> <img decoding="async"  src="Footer/Kitchen.svg" alt=""> Family's-<span id="span"> Kitchen</span></li>
             <li class="hidden" id="links"><a href="index.html">Home</a></li>
             <li class="hidden" id="links"><a href="Pages/About.html">About</a></li>
             <li class="hidden" id="links"><a href="Pages/Menu.html">Menu</a></li>
             <li class="hidden" id="links"><a href="Pages/Book-Table.html">Book Table</a></li>
             <li class="hidden" id="links"><a href="Pages/Testimonials.html">Testimonials</a></li>
              <li class="hidden" id="links"><a href="Pages/Designer.html">Designer</a></li>
-            <button class="menu" onclick="showSidebar()" ><img src="icons/menu.svg" alt=""></button>
+            <button class="menu" onclick="showSidebar()" ><img decoding="async"  src="icons/menu.svg" alt=""></button>
 
         </ul>
     </nav>
@@ -57,42 +57,42 @@
         </div>
         <div class="today-selection">
             <div class="card">
-                <img class="img" src="Food-Selections/fufu.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/fufu.jpg" loading="lazy">
                 <h1>Fufu</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/noddles.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/noddles.jpg" loading="lazy">
                 <h1>Noddles</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/spaghetti.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/spaghetti.jpg" loading="lazy">
                 <h1>Spaghetti</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/pasta.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/pasta.jpg" loading="lazy">
                 <h1>Pasta</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/pizza.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/pizza.jpg" loading="lazy">
                 <h1>Pizza</h1>
                 <p style="text-align: center; margin-top: 1.5rem; font-size: 2rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/potatoes-salad.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/potatoes-salad.jpg" loading="lazy">
                 <h1>Potatoes Salad</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/rice.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/rice.jpg" loading="lazy">
                 <h1>Rice</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
             <div class="card">
-                <img class="img" src="Food-Selections/sandwich.jpg" loading="lazy">
+                <img decoding="async"  class="img" src="Food-Selections/sandwich.jpg" loading="lazy">
                 <h1>Sandwich</h1>
                 <p style="text-align: center; margin-top: 2rem; font-size: 1.5rem;">This is served every <span id="currentDay"></span></p>
             </div>
@@ -104,7 +104,7 @@
         <h1 style="text-align: center;font-size: clamp(2rem,4vw,4rem);font-weight: bold;font-family: Sekuya;margin-bottom: 1rem;">Popular Dishes</h1>
         <div class="slider">
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/fufu.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/fufu.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Fufu and Soup</p>
                     <p>Rating:5.0</p>
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/noddles.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/noddles.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Noddles</p>
                     <p>Rating:5.0</p>
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/spaghetti.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/spaghetti.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Spaghetti</p>
                     <p>Rating:5.0</p>
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/pasta.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/pasta.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Pasta</p>
                     <p>Rating:5.0</p>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/pizza.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/pizza.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Pizza</p>
                     <p>Rating:5.0</p>
@@ -159,7 +159,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/potatoes-salad.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/potatoes-salad.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Potatoes Salad</p>
                     <p>Rating:5.0</p>
@@ -170,7 +170,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/rice.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/rice.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Rice</p>
                     <p>Rating:5.0</p>
@@ -181,7 +181,7 @@
                 </div>
             </div>
             <div class="slider-box">
-                <img class="img2" src="Food-Selections/sandwich.jpg" loading="lazy">
+                <img decoding="async"  class="img2" src="Food-Selections/sandwich.jpg" loading="lazy">
                 <div class="slider-box-header">
                     <p>Sandwich</p>
                     <p>Rating:5.0</p>
@@ -207,19 +207,19 @@
 
         <div class="best-list-cont">
             <div class="best-list">
-                <img src="Best-Selection/Best Quality.svg" loading="lazy">
+                <img decoding="async"  src="Best-Selection/Best Quality.svg" loading="lazy">
                 <p>Best Quality</p>
             </div>
             <div class="best-list">
-                <img src="Best-Selection/Home.svg" loading="lazy">
+                <img decoding="async"  src="Best-Selection/Home.svg" loading="lazy">
                 <p>Home Delivery</p>
             </div>
             <div class="best-list">
-                <img src="Best-Selection/Pre Booking.svg" loading="lazy">
+                <img decoding="async"  src="Best-Selection/Pre Booking.svg" loading="lazy">
                 <p>Pre-Booking</p>
             </div>
             <div class="best-list">
-                <img src="Best-Selection/Easy.svg" loading="lazy">
+                <img decoding="async"  src="Best-Selection/Easy.svg" loading="lazy">
                 <p>Easy To Order</p>
             </div>
         </div>
@@ -232,7 +232,7 @@
         <div class="reserve-table">
             
             <div class="dinning">
-                <img class="image" src="Dinning/Dinning-Table-1.jpg" loading="lazy" >
+                <img decoding="async"  class="image" src="Dinning/Dinning-Table-1.jpg" loading="lazy" >
             </div>
 
             <div class="reserve-table-cont">
@@ -293,9 +293,9 @@
 
             <div class="cont-footer1">
                 <h1>Contact Us</h1>
-                <img src="Footer/Call.svg" height="20px" width="30px"> <h3>+231775144573</h3>
-                <img src="Footer/Email.svg" height="20px" width="30px"><h3>familykitchen10@gmail.com</h3>
-                <img src="Footer/Location.svg" height="20px" width="30px"><h3>Liberia,Monrovia,Montserrado-County,New-Georgia-Estate</h3>
+                <img decoding="async"  src="Footer/Call.svg" height="20px" width="30px"> <h3>+231775144573</h3>
+                <img decoding="async"  src="Footer/Email.svg" height="20px" width="30px"><h3>familykitchen10@gmail.com</h3>
+                <img decoding="async"  src="Footer/Location.svg" height="20px" width="30px"><h3>Liberia,Monrovia,Montserrado-County,New-Georgia-Estate</h3>
             </div><hr class="divider">
         </div>
     </footer>
